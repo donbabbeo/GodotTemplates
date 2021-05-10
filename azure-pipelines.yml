@@ -24,7 +24,7 @@ steps:
 - task: PowerShell@2
   displayName: 'Update vsixmanifest version'
   inputs:
-    filePath: '$(System.DefaultWorkingDirectory)/UpdateVsixManifestVersion.ps1'
+    filePath: '$(System.DefaultWorkingDirectory)/GodotTemplates/UpdateVsixManifestVersion.ps1'
     arguments: '$(GitVersion.MajorMinorPatch)'
     workingDirectory: '$(System.DefaultWorkingDirectory)/GodotTemplates'
 
