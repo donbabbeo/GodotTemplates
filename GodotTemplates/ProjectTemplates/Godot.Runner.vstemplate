@@ -1,0 +1,28 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+    <TemplateData>
+        <Name>Godot Debug Runner</Name>
+        <Description>A workaround project for debugging using official Godot Visual Studio Extension</Description>
+        <Icon>__TemplateIcon.png</Icon>
+        <PreviewImage>__TemplateIcon.png</PreviewImage>
+        <CreateNewFolder>true</CreateNewFolder>
+        <DefaultName>Runner</DefaultName>
+        <ProvideDefaultName>true</ProvideDefaultName>
+        <LocationField>Enabled</LocationField>
+        <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+        <CreateInPlace>true</CreateInPlace>
+        <ProjectType>csharp</ProjectType>
+        <LanguageTag>C#</LanguageTag>
+        <PlatformTag>windows</PlatformTag>
+        <PlatformTag>linux</PlatformTag>
+        <PlatformTag>android</PlatformTag>
+        <ProjectTypeTag>games</ProjectTypeTag>
+        <ProjectTypeTag>library</ProjectTypeTag>
+        <ProjectTypeTag>desktop</ProjectTypeTag>
+        <ProjectTypeTag>mobile</ProjectTypeTag>
+        <ProjectTypeTag>web</ProjectTypeTag>
+        <ProjectTypeTag>Godot</ProjectTypeTag>
+    </TemplateData>
+    <TemplateContent>
+        <Project TargetFileName="Godot.Runner.csproj" File="Godot.Runner.csproj" ReplaceParameters="true"/>                    
+    </TemplateContent>
+</VSTemplate>
