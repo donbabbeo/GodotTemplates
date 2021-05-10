@@ -1,0 +1,12 @@
+assembly-versioning-scheme: None
+mode: Mainline
+next-version: 0.0.0
+branches: {}
+ignore:
+  sha: []
+increment: Inherit
+commit-message-incrementing: MergeMessageOnly
+major-version-bump-message: '\+semver:\s?(breaking|major)'
+minor-version-bump-message: '\+semver:\s?(feature|minor)'
+patch-version-bump-message: '\+semver:\s?(fix|patch)'
+no-bump-message: '\+semver:\s?(none|skip)'
