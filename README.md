@@ -1,6 +1,6 @@
 # Godot Templates
 [![CI](https://github.com/donbabbeo/GodotTemplates/actions/workflows/NetFxCI.yml/badge.svg)](https://github.com/donbabbeo/GodotTemplates/actions/workflows/NetFxCI.yml)
-[![License](https://img.shields.io/github/license/donbabbeo/GodotTemplates?style=plastic)]
+[![License](https://img.shields.io/github/license/donbabbeo/GodotTemplates)](https://github.com/donbabbeo/GodotTemplates/blob/master/LICENSE)
 
 SDK style C# project templates for Godot projects.
 
