@@ -1,4 +1,7 @@
 # Godot Templates
+[![CI](https://github.com/donbabbeo/GodotTemplates/actions/workflows/NetFxCI.yml/badge.svg)](https://github.com/donbabbeo/GodotTemplates/actions/workflows/NetFxCI.yml)
+[![License](https://img.shields.io/github/license/donbabbeo/GodotTemplates?style=plastic)]
+
 SDK style C# project templates for Godot projects.
 
 This extension contains a couple of templates that you can use on your Godot project with Visual Studio 2019.
