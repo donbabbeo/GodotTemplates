@@ -42,4 +42,18 @@ jobs:
         run: nuget restore GodotTemplates.sln
         
       - name: Build Solution
-        run: msbuild GodotTemplates.sln /p:Configuration=Release              
+        run: msbuild GodotTemplates.sln /p:Configuration=Release     
+        
+      - name: Set VSIX Version 
+        uses: cezarypiatek/VsixVersionAction@1.0
+        with:
+          version: ${{ steps.gitversion.outputs.majorMinorPatch }}  
+          vsix-manifest-file: GodotTemplates/bin/Release/source.extension.vsixmanifest
+          
+      - name: VSIX Publish
+        uses: cezarypiatek/VsixPublisherAction@0.2
+        with:
+            extension-file: GodotTemplates/bin/Release/source.extension.vsixmanifest    
+            publish-manifest-file: GodotTemplates/publishManifest.json    
+            personal-access-code: VS_PUBLISHER_ACCESS_TOKEN
+    
