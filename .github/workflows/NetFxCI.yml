@@ -48,4 +48,4 @@ jobs:
         uses: actions/upload-artifact@v2.2.3
         with:
           name: test-${{steps.gitversion.outputs.semVer}}.vsix
-          path: ${{github.workspace}}/bin/Release/${{github.workspace}}.vsix
+          path: ${{github.workspace}}/bin/Release/GodotTemplates.vsix
